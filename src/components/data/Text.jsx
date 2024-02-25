@@ -1,3 +1,18 @@
+export const HeaderText =
+[
+  {
+    text1: "Welcome! 👋",
+    text2: "I'm Szebasztián Márton",
+    text3: "Szebasztián Márton",
+    text4: "I'm excited to have you visit my portfolio!",
+    text5: "My portfolio",
+    text6: "I am a frontend developer.",
+    text7: "I'm excited to have you visit my portfolio!",
+    text8: "I'm glad to see you here!"
+  }
+]
+
+
 //Home Text 
 
 export const HomeText =
@@ -44,7 +59,8 @@ export const Sociallinks =
         linkedin: "www.linkedin.com",
         github: "https://www.github.com",
         x: "https://twitter.com",
-        youtube:""   
+        youtube:"",
+        mail:"DominikAntalVastagh@hotmail.com",   
     }
 ];
 
@@ -172,7 +188,7 @@ export const Contact =
       sectionsubtitle:"Contact Me",
       //
       contacttitle:"Talk to me",
-
+      Button:"Send Message"
     }
 ]
 
