@@ -5,6 +5,7 @@ import Backend from "./Backend";
 import Other from "./Other";
 
 const Skills = () => {
+
   return (
     <section className="skills section" id="skills">
       <h2 className="section__title">Skills</h2>

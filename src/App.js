@@ -8,7 +8,6 @@ import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
 import Portfolio from "./components/projects/Portfolio";
 
-
 const App = () => {
   return (
     <>

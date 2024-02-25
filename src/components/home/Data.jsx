@@ -1,10 +1,12 @@
 import React from "react";
+import {HomeText} from "../../components/data/Text"
 
 const Data = () => {
+  const home = HomeText[0];
   return (
     <div className="home__data">
       <h1 className="home__title">
-        Szebasztián Máton
+        {home.title}
         <svg
           width="36"
           height="36"
@@ -55,14 +57,13 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Frontend Developer</h3>
+      <h3 className="home__subtitle">{home.subtitle}</h3>
       <p className="home__description">
-        As a dedicated front-end developer, I harness the power of design and
-        creativity to craft web solutions.
+        {home.description}
       </p>
 
       <a href="#contact" className="button button--flex">
-        Say Hello
+        {home.button}
         <svg
           class="button__icon"
           xmlns="http://www.w3.org/2000/svg"

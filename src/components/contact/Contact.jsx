@@ -10,10 +10,10 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      "service_s53x8mc",
-      "template_fwq8n7v",
+      "service_s02rfar",
+      "template_f0rlrg7",
       form.current,
-      "cXginQ40keRVEt1YV"
+      "q_MZ1VKLjp7yB04aB"
     );
     e.target.reset();
   };

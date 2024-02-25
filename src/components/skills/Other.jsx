@@ -1,7 +1,8 @@
 import React from "react";
-import { BiLogoPython } from "react-icons/bi";
 import { SiNpm, SiNodedotjs, SiGithub, SiDocker } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
+import { SiFlutter,SiAndroidstudio  } from "react-icons/si";
+
 const Other = () => {
   return (
     <div className="skills__content">
@@ -9,16 +10,16 @@ const Other = () => {
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
-            <BiLogoPython />
+            <SiFlutter />
             <div>
-              <h3 className="skills__name">Python</h3>
+              <h3 className="skills__name">Flutter</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>
           <div className="skills__data">
-            <SiNpm />
+            <SiAndroidstudio />
             <div>
-              <h3 className="skills__name">npm</h3>
+              <h3 className="skills__name">Android Studio</h3>
               <span className="skills__level">Basic</span>
             </div>
           </div>

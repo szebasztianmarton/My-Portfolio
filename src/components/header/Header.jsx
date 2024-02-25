@@ -11,6 +11,7 @@ import {
 } from "react-icons/hi";
 import { TypeAnimation } from "react-type-animation";
 
+
 const Header = () => {
   window.addEventListener("scroll", function () {
     const header = document.querySelector(".header");
@@ -32,7 +33,7 @@ const Header = () => {
           sequence={[
             "Welcome! 👋",
             4500,
-            "MEGBASZTAM ANYÁDAT",
+            "I'm Szebasztián Márton",
             4500,
             "Szebasztián Márton",
             4500,
@@ -45,8 +46,6 @@ const Header = () => {
             "I'm excited to have you visit my portfolio!",
             4500,
             "I'm glad to see you here!",
-            4500,
-            "asdan@gmail.com",
             4500,
           ]}
           href="index.html"

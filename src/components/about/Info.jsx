@@ -3,23 +3,27 @@ import { PiStudentFill } from "react-icons/pi";
 import { GoGoal } from "react-icons/go";
 import { TbDeviceDesktopCode } from "react-icons/tb";
 
+import {AboutText} from "../../components/data/Text"// Import the data
+
+
 const Info = () => {
+  const about = AboutText[0];
   return (
-    <div className="about__info grid">
+<div className="about__info grid">
       <div className="about__box">
-        <TbDeviceDesktopCode Computer className="about__icon" />
-        <h3 className="about__title">Experience</h3>
-        <span className="about__subtitle">2+ Years</span>
+        <TbDeviceDesktopCode className="about__icon" />
+        <h3 className="about__title">{about.title1}</h3>
+        <span className="about__subtitle">{about.subtitle1}</span>
       </div>
       <div className="about__box">
         <GoGoal className="about__icon" />
-        <h3 className="about__title">Completed</h3>
-        <span className="about__subtitle">8 Projects</span>
+        <h3 className="about__title">{about.title2}</h3>
+        <span className="about__subtitle">{about.subtitle2}</span>
       </div>
       <div className="about__box">
         <PiStudentFill className="about__icon" />
-        <h3 className="about__title">Student</h3>
-        <span className="about__subtitle">Még tanulok</span>
+        <h3 className="about__title">{about.title3}</h3>
+        <span className="about__subtitle">{about.subtitle3}</span>
       </div>
     </div>
   );

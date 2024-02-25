@@ -3,11 +3,16 @@ import "./footer.css";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { FaXTwitter } from "react-icons/fa6";
 
+import {HomeText,Sociallinks} from "../../components/data/Text"
+
 const Footer = () => {
+  const links = Sociallinks[0];
+  const home = HomeText[0];
+
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Szebasztián Márton</h1>
+        <h1 className="footer__title">{home.title}</h1>
         <ul className="footer__list">
           <li>
             <a href="#about" className="footer__link">
@@ -22,7 +27,7 @@ const Footer = () => {
         </ul>
         <div className="footer__social">
           <a
-            href="https://twitter.com/szebamarton"
+            href={links.x}
             className="home__social-icon"
             target="_blank"
             rel="noreferrer"
@@ -30,7 +35,7 @@ const Footer = () => {
             <FaXTwitter />
           </a>
           <a
-            href="https://www.github.com/szebasztianmarton"
+            href={links.github}
             className="home__social-icon"
             target="_blank"
             rel="noreferrer"
@@ -38,7 +43,7 @@ const Footer = () => {
             <FiGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/szebasztianmarton/"
+            href={links.linkedin}
             className="home__social-icon"
             target="_blank"
             rel="noreferrer"
@@ -47,7 +52,7 @@ const Footer = () => {
           </a>
         </div>
         <span className="footer__copy">
-          &copy; {new Date().getFullYear()} All rights are reserved
+          &copy; {new Date().getFullYear()} {home.copy}
         </span>
       </div>
     </footer>

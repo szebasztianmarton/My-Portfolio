@@ -3,27 +3,27 @@ import "./about.css";
 import AboutImg from "../../assets/aboutBW.jpeg";
 import CV from "../../assets/CV.pdf";
 import Info from "./Info";
+import {AboutText} from "../../components/data/Text"
 
 const About = () => {
+  const about = AboutText[0];
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">A short introduction</span>
+      <h2 className="section__title">{about.title}</h2>
+      <span className="section__subtitle">{about.subtitle}</span>
       <div className="about__container container grid">
         <img src={AboutImg} alt="about" className="about__img" />
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Quickly pick up new concepts and technologies. I excel in dynamic
-            environments and love adapting to the latest trends in frontend
-            development.
+            {about.description}
           </p>
           <a
             download="Szebasztian Marton CV"
             href={CV}
             className="button button--flex"
           >
-            Download CV
+            {about.button}
             <svg
               class="button__icon"
               xmlns="http://www.w3.org/2000/svg"
