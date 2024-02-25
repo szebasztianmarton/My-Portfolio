@@ -3,10 +3,10 @@
 export const HomeText =
 [
     {
-        title:"Szebasztián Márton",
+        title:"Dominik Antal Vastagh",
         subtitle:"Frontend Developer",
-        description:"As a dedicated front-end developer, I harness the power of design and creativity to craft web solutions.",
-        button:"Say Hello",
+        description:"As a passionate frontend developer, I leverage design principles and creativity to build captivating web experiences.",
+        button:"Get in Touch",
         //Footer Copyright Text. 
         // The copyright year is automatically renewed
         copy:"All rights are reserved"
@@ -23,14 +23,14 @@ export const AboutText =
         //CV Download BUTTON 
         button:"Download CV",
         //Box 1 
-        title1:"Experience",
-        subtitle1:"2+ Years",
+        title1:"Professional Journey",
+        subtitle1:"2+ Years of Growth",
         //Box 2
         title2:"Completed",
         subtitle2:"8 Projects",
         //Box 3
-        title3:"Student",
-        subtitle3:"I'm still studying at university."
+        title3:"Currently Learning",
+        subtitle3:"I'm delving into advanced JS frameworks"
     }
 ] ;
 
@@ -41,9 +41,9 @@ export const Sociallinks =
     {
         facebook: "https://www.facebook.com",
         instagram: "https://www.instagram.com",
-        linkedin: "www.linkedin.com/in/szebasztianmarton",
+        linkedin: "www.linkedin.com",
         github: "https://www.github.com",
-        x: "https://twitter.com/szebamarton",
+        x: "https://twitter.com",
         youtube:""   
     }
 ];
@@ -92,22 +92,7 @@ export const projectsData = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
       badge:[
-          { name: React, url: "ReactBadge" },
-          { name: Node, url: "NodeBadge" },
-          {name: Netlify, url: "NetlifyBadge" },
-          {name: AndroidStudio, url: "AndroidStudioBadge" },
-          { name: Azure, url: "NodeBadge" },
-          { name: css, url: "NodeBadge" },
-          { name: React, url: "ReactBadge" },
-          { name: Node, url: "NodeBadge" },
-          {name: Netlify, url: "NetlifyBadge" },
-          {name: AndroidStudio, url: "AndroidStudioBadge" },
-          { name: Azure, url: "NodeBadge" },
-          { name: css, url: "NodeBadge" },
-        { name: Azure, url: "NodeBadge" },
-          { name: css, url: "NodeBadge" }
-        
-
+          { name: React, url: "ReactBadge" }
         ],
       category: "React Native",
       demo: "http://reactjs.",
@@ -178,7 +163,18 @@ export const projectsData = [
 
 //About Text 
 
+//Contant 
+export const Contact =
 
+[
+    {
+      sectiontitle:"Let's Connect",
+      sectionsubtitle:"Contact Me",
+      //
+      contacttitle:"Talk to me",
+
+    }
+]
 
 
 
