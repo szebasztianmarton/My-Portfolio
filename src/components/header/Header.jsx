@@ -34,19 +34,24 @@ const Header = () => {
           sequence={[
             {text1},
             4500,
-            
+            "I'm glad to see you here!",
+            {text2},
+            "I'm glad to see you here!",
             4500,
-            
+            "I'm glad to see you here!",
+            {text3},
+            "I'm glad to see you here!",
             4500,
-            
+            {text4},
             4500,
-            
+            {text5},
             4500,
-            
+            {text6},
             4500,
-            
+            {text7},
             4500,
-            
+            "I'm glad to see you here!",
+            {text8},
             4500,
           ]}
           href="index.html"
