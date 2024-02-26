@@ -1,33 +1,19 @@
-export const HeaderText =
-[
-  {
-    text1: "Welcome! 👋",
-    text2: "I'm Szebasztián Márton",
-    text3: "Szebasztián Márton",
-    text4: "I'm excited to have you visit my portfolio!",
-    text5: "My portfolio",
-    text6: "I am a frontend developer.",
-    text7: "I'm excited to have you visit my portfolio!",
-    text8: "I'm glad to see you here!"
-  }
-]
-
-
 //Home Text 
-
 export const HomeText =
 [
     {
-        title:"Dominik Antal Vastagh",
+        title:"Szebasztián Márton",
         subtitle:"Frontend Developer",
-        description:"As a passionate frontend developer, I leverage design principles and creativity to build captivating web experiences.",
-        button:"Get in Touch",
+        description:"As a dedicated front-end developer, I harness the power of design and creativity to craft web solutions.",
+        button:"Say Hello",
         //Footer Copyright Text. 
         // The copyright year is automatically renewed
         copy:"All rights are reserved"
 
     }
 ];
+
+//
 export const AboutText =
 [
     //About.jsx TEXT
@@ -38,14 +24,14 @@ export const AboutText =
         //CV Download BUTTON 
         button:"Download CV",
         //Box 1 
-        title1:"Professional Journey",
-        subtitle1:"2+ Years of Growth",
+        title1:"Experience",
+        subtitle1:"2+ Years",
         //Box 2
         title2:"Completed",
         subtitle2:"8 Projects",
         //Box 3
-        title3:"Currently Learning",
-        subtitle3:"I'm delving into advanced JS frameworks"
+        title3:"Student",
+        subtitle3:"I'm still studying at university."
     }
 ] ;
 
@@ -56,18 +42,17 @@ export const Sociallinks =
     {
         facebook: "https://www.facebook.com",
         instagram: "https://www.instagram.com",
-        linkedin: "www.linkedin.com",
+        linkedin: "www.linkedin.com/in/szebasztianmarton",
         github: "https://www.github.com",
-        x: "https://twitter.com",
-        youtube:"",
-        mail:"DominikAntalVastagh@hotmail.com",   
+        x: "https://twitter.com/szebamarton",
+        youtube:""   
     }
 ];
 
 //Project Text:
 export const projectsData = [
-  //Badgelist: AndroidStudio, Arduino, AWS, Azure, Css, Dart, Git, HTML, Htmx, Illustrator, Java, JavaScript, JQuery, Kubernetes, Laravel, Less, MongoDB, MySQL, Netlify, 
-  //           Nginx, Node, Notion, Npm, React, Sass, Svelte, Swift, TailwindCSS, VueJS, WebAssembly, XD, Yarn 
+  /*Badgelist: AndroidStudio, Arduino, AWS, Azure, Css, Dart, Git, HTML, Htmx, Illustrator, Java, JavaScript, JQuery, Kubernetes, Laravel, Less, MongoDB, MySQL, Netlify, 
+               Nginx, Node, Notion, Npm, React, Sass, Svelte, Swift, TailwindCSS, VueJS, WebAssembly, XD, Yarn */
     {
       id: 1,
       category: "React",
@@ -77,9 +62,9 @@ export const projectsData = [
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
       badge: 
         [
-          { name: React, url: "ReactBadge" },
-          { name: Node, url: "NodeBadge" },
-          { name: Notion, url: "NotionBadge" },
+          { name: React},
+          { name: Node  },
+          { name: Notion }
 
         ],
       demo: "https://www.facebook.com/",
@@ -108,7 +93,22 @@ export const projectsData = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
       badge:[
-          { name: React, url: "ReactBadge" }
+          { name: React, url: "ReactBadge" },
+          { name: Node, url: "NodeBadge" },
+          {name: Netlify, url: "NetlifyBadge" },
+          {name: AndroidStudio, url: "AndroidStudioBadge" },
+          { name: Azure, url: "NodeBadge" },
+          { name: css, url: "NodeBadge" },
+          { name: React, url: "ReactBadge" },
+          { name: Node, url: "NodeBadge" },
+          {name: Netlify, url: "NetlifyBadge" },
+          {name: AndroidStudio, url: "AndroidStudioBadge" },
+          { name: Azure, url: "NodeBadge" },
+          { name: css, url: "NodeBadge" },
+        { name: Azure, url: "NodeBadge" },
+          { name: css, url: "NodeBadge" }
+        
+
         ],
       category: "React Native",
       demo: "http://reactjs.",
@@ -179,18 +179,7 @@ export const projectsData = [
 
 //About Text 
 
-//Contant 
-export const Contact =
 
-[
-    {
-      sectiontitle:"Let's Connect",
-      sectionsubtitle:"Contact Me",
-      //
-      contacttitle:"Talk to me",
-      Button:"Send Message"
-    }
-]
 
 
 

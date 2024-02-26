@@ -9,7 +9,7 @@ const ProjectItems = ({ item }) => {
       <h3 className="project__title">{item.title}</h3>
       <p className="project__description">{item.description}</p>
       {item.badge && item.badge.map((badge, img) => (
-            <img key={img} src={badge.name} alt={badge.name} className="project__badge" />
+            <img key={img} src={badge.name}title={badge.name} alt={badge.name} className="project__badge" />
           )
         )
       }
