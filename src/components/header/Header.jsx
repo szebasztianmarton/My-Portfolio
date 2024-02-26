@@ -10,7 +10,6 @@ import {
   HiOutlineMenu,
 } from "react-icons/hi";
 import { TypeAnimation } from "react-type-animation";
-import {HeaderText} from "../../components/data/Text"
 
 
 const Header = () => {
@@ -22,7 +21,7 @@ const Header = () => {
 
   const [Toggle, showMenu] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
-  const nav = HeaderText[0];
+
   return (
     <header className="header">
       <nav className="nav container">
@@ -32,23 +31,21 @@ const Header = () => {
           cursor={false}
           preRenderFirstString={true}
           sequence={[
-            {text1},
-            4500,
-            "I'm glad to see you here!",
-            {text2},
             "I'm glad to see you here!",
             4500,
             "I'm glad to see you here!",
-            {text3},
+            4500,
             "I'm glad to see you here!",
             4500,
-            {text4},
+            "I'm glad to see you here!",
             4500,
-            {text5},
+            "I'm glad to see you here!",
             4500,
-            {text6},
+            "I'm glad to see you here!",
             4500,
-            {text7},
+            "I'm glad to see you here!",
+            4500,
+            "I'm glad to see you here!",
             4500,
             "I'm glad to see you here!",
             {text8},
